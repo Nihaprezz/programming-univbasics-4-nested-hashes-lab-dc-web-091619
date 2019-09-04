@@ -90,6 +90,8 @@ def adding_matz
     :known_for => "Ruby",
      :languages => ["List", "C"]
      }
+     
+  programmer_hash
 end
 
 def changing_alan
