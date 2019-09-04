@@ -16,7 +16,6 @@ def hopper
         }
      }
      
-     programmer_hash[:grace_hopper]
 end
 
 
@@ -39,7 +38,6 @@ def alan_kay_is_known_for
         }
      }
      
-     programmer_hash[:alan_kay][:known_for]
 end
 
 def dennis_ritchies_language
@@ -85,7 +83,6 @@ def adding_matz
         }
      }
 
-  programmer_hash
 end
 
 def changing_alan
@@ -104,6 +101,7 @@ def changing_alan
           :languages => ["C"]
         }
      }
+     
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
