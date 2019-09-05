@@ -86,12 +86,12 @@ def adding_matz
         }
      }
      
-  programmer_hash[:yukihiro_matsumoto] = {
+  programmer_hash[:yukihiro_matsumoto] = { #adds the new keys and values
     :known_for => "Ruby",
      :languages => ["List", "C"]
      }
      
-  programmer_hash
+  programmer_hash #returns orginial hash with added values
 end
 
 def changing_alan
